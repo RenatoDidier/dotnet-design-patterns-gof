@@ -1,1 +1,0 @@
-Adapter converte a interface de uma classe em outra interface esperada pelo cliente, permitindo que classes incompatíveis trabalhem juntas.
