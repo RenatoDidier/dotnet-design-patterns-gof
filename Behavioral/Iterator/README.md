@@ -11,3 +11,4 @@ Aplicabilidade:
 	- Use the pattern to reduce duplication of the traversal code across your app.
 	- Use the Iterator when you want your code to be able to traverse different data structures or when types of these structures are unknown beforehand.
 
+* O LINQ e o IEnumerable já implementam esse pattern por baixo dos panos.
