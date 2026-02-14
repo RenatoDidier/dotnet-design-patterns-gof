@@ -14,3 +14,6 @@ Aplicabilidade:
 Use the Decorator pattern when you need to be able to assign extra behaviors to objects at runtime without breaking the code that uses these objects.
 
 Use the pattern when it’s awkward or not possible to extend an object’s behavior using inheritance.
+
+* Decorator adiciona comportamento sem alterar sua classe. Não há interrupção. O comportamento é acumulativo.
+* Chain of Responsibility decide quem processa. Ele faz o gerenciamento de uma requesição através de uma cadeia de funções. Portanto, ele possui controle da cadeia e pode interromper uma ação quando necessário.
