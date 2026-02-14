@@ -1,5 +1,16 @@
 Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
 
+Ele busca abstrair diversas validações que pode ocorrer numa execução de um conjunto de classes complexas. O foco dele é na orquestração. Ele é sobre interface simplificada.
+
+Isto aqui:
+	validator.Validate(...)
+	calculator.Calculate(...)
+	balance.Check(...)
+	exchange.Send(...)
+	ledger.Register(...)
+
+Pode se tornar isso:
+	tradingFacade.ExecuteOrder(...)
 
 Aplicabilidade:
 - Vários subsistemas + Integrações complexas + Muitas dependências + Ordem específica de execução
@@ -12,3 +23,4 @@ O que o Facade NÃO é
 - Não é Application Service rico
 - Não contém regra de negócio profunda
 -- Simplifica acesso a um conjunto de subsistemas.
+

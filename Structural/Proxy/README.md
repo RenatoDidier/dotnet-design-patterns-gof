@@ -13,6 +13,7 @@ Aplicabilidade:
 - Caching request results (caching proxy). This is when you need to cache results of client requests and manage the life cycle of this cache, especially if results are quite large.
 - Smart reference. This is when you need to be able to dismiss a heavyweight object once there are no clients that use it.
 
+Um dos objetivos principais do Proxy é controlar acesso a um objeto. O objetivo dele é interceptar a chamada para um objeto real.
 
 Imagine um serviço que consulta:
 	Histórico completo de transações de um cliente
